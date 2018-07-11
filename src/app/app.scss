@@ -1,0 +1,159 @@
+// http://ionicframework.com/docs/theming/
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.brand-bepet {
+  font-family: "Museo Sans Rounded 500";
+  font-weight: 600;
+  font-size: 2.1rem;
+  color: color($colors, bp-white);
+}
+
+.home-title {
+  font-family: "Museo Sans Rounded 100";
+  font-size: 32px;
+  color: color($colors, bp-gray-dark);
+}
+
+.section-title {
+  font-family: "Museo Sans Rounded 100";
+  font-size: 26px;
+  color: color($colors, bp-gray-dark);
+}
+
+.semi-title-1 {
+  font-family: "Museo Sans Rounded 100";
+  font-size: 24px;
+  color: color($colors, bp-red);
+}
+
+.semi-title-2 {
+  font-family: "Museo Sans Rounded 100";
+  font-size: 24px;
+  color: color($colors, bp-gray-dark);
+}
+
+$text-default-font-size: 16px;
+.text-default-1 {
+  font-family: "Open Sans Light";
+  font-size: $text-default-font-size;
+  color: color($colors, bp-gray-dark);
+}
+
+.text-default-2 {
+  font-family: "Open Sans Semibold";
+  font-size: $text-default-font-size;
+  color: color($colors, bp-gray-dark);
+}
+
+.rounding-default-2 {
+  border-radius: 7px;
+}
+
+.button-default-1 {
+    font-family: "Museo Sans Rounded 500";
+    font-size: 14px;
+    color: color($colors, bp-white);
+    border-radius: 11px;
+    background: color($colors, primary);
+    height: 32px;
+    width: 96%;
+    margin-left: 6px !important;
+    margin-bottom: 7px;
+}
+
+.button-default-2 {
+    font-family: "Museo Sans Rounded 500";
+    font-size: 14px;
+    color: black; // revisar no documento de diretrizes
+    border-radius: 11px;
+    background: color($colors, bp-gray-medium);
+    height: 32px;
+    width: 96%;
+    margin-left: 6px !important;
+    margin-bottom: 7px;
+}
+
+.button-tag {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 24px;
+}
+
+.tab-button[aria-selected=true] {
+    border-top: 3px solid color($colors, bp-red);
+}
+
+.upper-text {
+  text-transform: uppercase;
+}
+
+ion-modal.pet-edit-popup-name ion-backdrop {
+    visibility: visible !important;
+    z-index:0;
+}
+ion-modal.pet-edit-popup-name .modal-wrapper{
+    top: 30%;
+    width: 85%;
+    height: 240px;
+    position: absolute;
+    transform: translate(9%, 0) !important;
+}
+
+ion-modal.pet-edit-popup-user-color ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.pet-edit-popup-user-color .modal-wrapper{
+  top: 30%;
+  width: 85%;
+  height: 275px;
+  position: absolute;
+  transform: translate(9%, 0) !important;
+}
+
+ion-modal.pet-edit-popup-breed ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.pet-edit-popup-breed .modal-wrapper{
+  top: 30%;
+  width: 85%;
+  height: 275px;
+  position: absolute;
+  transform: translate(9%, 0) !important;
+}
+
+ion-modal.pet-edit-popup-birthdate ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.pet-edit-popup-birthdate .modal-wrapper{
+  top: 30%;
+  width: 85%;
+  height: 292px;
+  position: absolute;
+  transform: translate(9%, 0) !important;
+}
+
+ion-modal.pet-edit-popup-special-needs ion-backdrop {
+  visibility: visible !important;
+  z-index:0;
+}
+ion-modal.pet-edit-popup-special-needs .modal-wrapper{
+  top: 30%;
+  width: 85%;
+  height: 292px;
+  position: absolute;
+  transform: translate(9%, 0) !important;
+}

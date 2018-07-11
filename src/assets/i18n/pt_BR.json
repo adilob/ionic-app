@@ -1,0 +1,151 @@
+{
+    "BePet" : "IONIC App",
+    "search" : {
+        "what_do_you_need_for_your_pet" : "SELECIONE AS TAGS PARA PESQUISA...",
+        "type_here" : "Digite aqui",
+        "search" : "Buscar"
+    },
+    "profile" : {
+        "address" : "Endereço",
+        "phones" : "Telefone(s)",
+        "email" : "Email",
+        "profile-edit" : "Editar Perfil",
+        "my-pets" : "Meus Pets",
+        "add-pet" : "Adicionar Pet",
+        "payment" : "Pagamento",
+        "remove-card" : "remover",
+        "add-card" : "Adicionar Cartão",
+        "history" : "Histórico",
+        "access-history" : "Acessar Histórico"
+    },
+    "monthNames" : {
+        "january" : "Janeiro",
+        "february" : "Fevereiro",
+        "march" : "Março",
+        "april" : "Abril",
+        "may" : "Maio",
+        "june" : "Junho",
+        "july" : "Julho",
+        "august" : "Agosto",
+        "september" : "Setembro",
+        "october" : "Outubro",
+        "november" : "Novembro",
+        "december" : "Dezembro"
+    },
+    "monthNamesShort" : {
+        "january" : "Jan",
+        "february" : "Fev",
+        "march" : "Mar",
+        "april" : "Abr",
+        "may" : "Mai",
+        "june" : "Jun",
+        "july" : "Jul",
+        "august" : "Ago",
+        "september" : "Set",
+        "october" : "Out",
+        "november" : "Nov",
+        "december" : "Dez"
+    },
+    "pet-edit-popup" : {
+        "pet-name-question" : "Qual o nome do seu Pet?",
+        "continue-button" : "CONTINUAR",
+        "pet-color-question" : "Qual a cor do seu Pet?",
+        "pet-breed-question" : "Você sabe a raça do seu Pet?",
+        "pet-birthdate-question" : "Você sabe a data de nascimento do seu Pet?",
+        "pet-special-needs-question" : "Qual a necessidade especial do seu Pet?",
+        "pet-color-cancel-button" : "SEM COR DEFINIDA",
+        "pet-breed-cancel-button" : "SEM RAÇA DEFINIDA",
+        "pet-birthdate-cancel-button" : "NÃO SEI",
+        "pet-special-needs-cancel-button" : "CANCELAR"
+    },
+    "pet-step-indicator" : {
+        "add-pet" : "Adicionar Pet"
+    },
+    "pet-edit-step1" : {
+        "confirmText" : "AVANÇAR",
+        "cancelText" : "CANCELAR",
+        "title" : "Espécie",
+        "dog" : "Cachorro",
+        "cat" : "Gato",
+        "parrot" : "Pássaro",
+        "turtle" : "Tartaruga",
+        "hamster" : "Ramster",
+        "fish" : "Peixe"
+    },
+    "pet-edit-step2" : {
+        "confirmText" : "AVANÇAR",
+        "cancelText" : "VOLTAR",
+        "gender" : "Sexo",
+        "female_long" : "Fêmea",
+        "undefined_long" : "Não Informado",
+        "male_long" : "Macho",
+        "female_short" : "F",
+        "undefined_short" : "?!",
+        "male_short" : "M",
+        "no_breed_defined" : "Sem Raça Definida"
+    },
+    "pet-edit-step3" : {
+        "confirmText" : "AVANÇAR",
+        "cancelText" : "VOLTAR",
+        "size" : "Porte",
+        "medium_long" : "Médio",
+        "small_long" : "Pequeno",
+        "big_long" : "Grande",
+        "medium_short" : "M",
+        "small_short" : "P",
+        "big_short" : "G"
+    },
+    "pet-edit-step4" : {
+        "confirmText" : "AVANÇAR",
+        "cancelText" : "VOLTAR",
+        "hair" : "Pêlo",
+        "short_short" : "C",
+        "medium_short" : "M",
+        "long_short" : "L",
+        "short_long" : "Curto",
+        "medium_long" : "Médio",
+        "long_long" : "Longo"
+    },
+    "pet-edit-step5" : {
+        "confirmText" : "AVANÇAR",
+        "cancelText" : "VOLTAR",
+        "color" : "Cor",
+        "gray_short" : "CZ",
+        "gray_long" : "Cinza",
+        "black_short" : "PT",
+        "black_long" : "Preto",
+        "white_short" : "BR",
+        "white_long" : "Branco",
+        "yellow_short" : "AM",
+        "yellow_long" : "Amarelo",
+        "mixed_short" : "ML",
+        "mixed_long" : "Malhado",
+        "undefined_short" : "?!",
+        "undefined_long" : "Sem Cor Definida"
+    },
+    "pet-edit-step6" : {
+        "confirmText" : "AVANÇAR",
+        "cancelText" : "VOLTAR",
+        "age" : "Idade",
+        "undefined_short" : "?!",
+        "undefined_long" : "Não Sei",
+        "puppy_short" : "F",
+        "puppy_long" : "Filhote",
+        "adult_short" : "A",
+        "adult_long" : "Adulto"
+    },
+    "pet-edit-step7" : {
+        "confirmText" : "AVANÇAR",
+        "cancelText" : "VOLTAR",
+        "specialNeeds" : "Necessidades Especiais",
+        "yes_short" : "S",
+        "yes_long" : "Sim",
+        "no_short" : "N",
+        "no_long" : "Não"
+    },
+    "pet-edit-step8" : {
+        "title" : "Pet cadastrado",
+        "subtitle" : "com sucesso!",
+        "button" : "VOLTAR PARA O PERFIL"
+    }
+}

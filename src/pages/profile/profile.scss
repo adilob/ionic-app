@@ -1,0 +1,72 @@
+page-profile {
+  .main {
+    background: color($colors, primary)
+  }
+  #div-photo-profile {
+    profile-photo .photo {
+      position: absolute;
+      transform: translate(-50%, 8%);
+    }
+  }
+  .card-profile {
+    margin-top: 55px !important;
+    background: color($colors, bp-white);
+    margin: 10px;
+    .profile-name {
+      text-align: center;
+      position: relative;
+      padding-top: 55px;
+    }
+    ion-grid {
+      position: relative;
+    }
+    button {
+      position: relative;
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-bottom: 10px;
+    }
+  }
+  .card-pet {
+    background: color($colors, bp-white);
+    margin: 10px;
+    .section-title {
+      padding: 20px 0px 20px 20px;
+    }
+    button {
+      position: relative;
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-bottom: 10px;
+    }
+  }
+  .pets {
+    profile-photo .photo {}
+  }
+  .card-payment {
+    background: color($colors, bp-white);
+    margin: 10px;
+    .section-title {
+      padding: 20px 0px 20px 20px;
+    }
+    button {
+      position: relative;
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .history {
+      display: flex;
+  }
+
+}
+
+ion-modal {
+  &.pet-edit-popup-name {
+    div.modal-wrapper {
+        box-shadow: none;
+    }
+ }
+}

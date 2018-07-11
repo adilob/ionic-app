@@ -1,0 +1,148 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+// Font path is used to include ionicons,
+// roboto, and noto sans fonts
+$font-path: "../assets/fonts";
+
+
+// The app direction is used to include
+// rtl styles in your app. For more info, please see:
+// http://ionicframework.com/docs/theming/rtl-support/
+$app-direction: ltr;
+
+
+@import "ionic.globals";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+
+$font-family-base: "Open Sans Light", -apple-system, "Helvetica Neue", "Roboto", sans-serif !default;
+
+$toolbar-ios-title-font-size: 2.1rem;
+$toolbar-md-title-font-size: 2.1rem;
+$toolbar-wp-title-font-size: 2.1rem;
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary:       #f0544d,
+  secondary:     #30bcad,
+  danger:        #ff5148,
+  light:         #9ddcf5,
+  dark:          #4e4e4e,
+  bp-yellow:     #ffc865,
+  bp-red:        #f0544d,
+  bp-blue:       #9ddcf5,
+  bp-green:      #30bcad,
+  bp-gray-dark:  #4e4e4e,
+  bp-gray-medium:#cccccc,
+  bp-gray-clear: #f3f3f3,
+  bp-white:      #ffffff,
+  bp-red-clear:  #FFABA9
+);
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+
+
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+
+
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/ionicons/
+
+@import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url($font-path + '/opens-sans/light/OpenSans-Light.eot');
+  src: url($font-path + '/opens-sans/light/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+      url($font-path + '/opens-sans/light/OpenSans-Light.woff2') format('woff2'),
+      url($font-path + '/opens-sans/light/OpenSans-Light.woff') format('woff'),
+      url($font-path + '/opens-sans/light/OpenSans-Light.ttf') format('truetype'),
+      url($font-path + '/opens-sans/light/OpenSans-Light.svg#OpenSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url($font-path + '/opens-sans/semibold/OpenSans-SemiBold.eot');
+  src: url($font-path + '/opens-sans/semibold/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url($font-path + '/opens-sans/semibold/OpenSans-SemiBold.woff2') format('woff2'),
+      url($font-path + '/opens-sans/semibold/OpenSans-SemiBold.woff') format('woff'),
+      url($font-path + '/opens-sans/semibold/OpenSans-SemiBold.ttf') format('truetype'),
+      url($font-path + '/opens-sans/semibold/OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Rounded 100';
+  src: url($font-path + '/museo-sans/rounded/100/MuseoSansRounded-100.eot');
+  src: url($font-path + '/museo-sans/rounded/100/MuseoSansRounded-100.eot?#iefix') format('embedded-opentype'),
+      url($font-path + '/museo-sans/rounded/100/MuseoSansRounded-100.woff2') format('woff2'),
+      url($font-path + '/museo-sans/rounded/100/MuseoSansRounded-100.woff') format('woff'),
+      url($font-path + '/museo-sans/rounded/100/MuseoSansRounded-100.ttf') format('truetype'),
+      url($font-path + '/museo-sans/rounded/100/MuseoSansRounded-100.svg#MuseoSansRounded-100') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Rounded 500';
+  src: url($font-path + '/museo-sans/rounded/500/MuseoSansRounded-500.eot');
+  src: url($font-path + '/museo-sans/rounded/500/MuseoSansRounded-500.eot?#iefix') format('embedded-opentype'),
+      url($font-path + '/museo-sans/rounded/500/MuseoSansRounded-500.woff2') format('woff2'),
+      url($font-path + '/museo-sans/rounded/500/MuseoSansRounded-500.woff') format('woff'),
+      url($font-path + '/museo-sans/rounded/500/MuseoSansRounded-500.ttf') format('truetype'),
+      url($font-path + '/museo-sans/rounded/500/MuseoSansRounded-500.svg#MuseoSansRounded-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "roboto";
+@import "noto-sans";

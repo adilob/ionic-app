@@ -1,0 +1,151 @@
+{
+    "BePet" : "IONIC App",
+    "search" : {
+        "what_do_you_need_for_your_pet" : "SELECT TAGS FOR RESEARCH...",
+        "type_here" : "Type here",
+        "search" : "Search"
+    },
+    "profile" : {
+        "address" : "Address",
+        "phones" : "Phone(s)",
+        "email" : "Email",
+        "profile-edit" : "Profile Edit",
+        "my-pets" : "My Pets",
+        "add-pet" : "Add Pet",
+        "payment" : "Payment",
+        "remove-card" : "remove",
+        "add-card" : "Add Card",
+        "history" : "History",
+        "access-history" : "History Access"
+    },
+    "monthNames" : {
+        "january" : "Januray",
+        "february" : "February",
+        "march" : "March",
+        "april" : "April",
+        "may" : "May",
+        "june" : "June",
+        "july" : "July",
+        "august" : "August",
+        "september" : "September",
+        "october" : "October",
+        "november" : "November",
+        "december" : "December"
+    },
+    "monthNamesShort" : {
+        "january" : "Jan",
+        "february" : "Feb",
+        "march" : "Mar",
+        "april" : "Apr",
+        "may" : "May",
+        "june" : "Jun",
+        "july" : "Jul",
+        "august" : "Aug",
+        "september" : "Sep",
+        "october" : "Oct",
+        "november" : "Nov",
+        "december" : "Dec"
+    },
+    "pet-edit-popup" : {
+        "pet-name-question" : "What is your pet's name?",
+        "continue-button" : "CONTINUE",
+        "pet-color-question" : "What is your pet's color?",
+        "pet-breed-question" : "Do you know your pet's breed?",
+        "pet-birthdate-question" : "Do you know your pet's birthdate?",
+        "pet-special-needs-question" : "What is the your pet's special needs?",
+        "pet-color-cancel-button" : "NO COLOR DEFINED",
+        "pet-breed-cancel-button" : "NO BREED DEFINED",
+        "pet-birthdate-cancel-button" : "I DON'T KNOW",
+        "pet-special-needs-cancel-button" : "CANCEL"
+    },
+    "pet-step-indicator" : {
+        "add-pet" : "Add Pet"
+    },
+    "pet-edit-step1" : {
+        "confirmText" : "NEXT",
+        "cancelText" : "BACK",
+        "title" : "Species",
+        "dog" : "Dog",
+        "cat" : "Cat",
+        "parrot" : "Bird",
+        "turtle" : "Turtle",
+        "hamster" : "Hamster",
+        "fish" : "Fish"
+    },
+    "pet-edit-step2" : {
+        "confirmText" : "NEXT",
+        "cancelText" : "BACK",
+        "gender" : "Gender",
+        "female_long" : "Female",
+        "undefined_long" : "Not Informed",
+        "male_long" : "Male",
+        "female_short" : "F",
+        "undefined_short" : "?!",
+        "male_short" : "M",
+        "no_breed_defined" : "No Breed Defined"
+    },
+    "pet-edit-step3" : {
+        "confirmText" : "NEXT",
+        "cancelText" : "BACK",
+        "size" : "Size",
+        "medium_long" : "Medium",
+        "small_long" : "Small",
+        "big_long" : "Big",
+        "medium_short" : "M",
+        "small_short" : "S",
+        "big_short" : "B"
+    },
+    "pet-edit-step4" : {
+        "confirmText" : "NEXT",
+        "cancelText" : "BACK",
+        "hair" : "Hair",
+        "short_short" : "S",
+        "medium_short" : "M",
+        "long_short" : "L",
+        "short_long" : "Short",
+        "medium_long" : "Medium",
+        "long_long" : "Long"
+    },
+    "pet-edit-step5" : {
+        "confirmText" : "NEXT",
+        "cancelText" : "BACK",
+        "color" : "Color",
+        "gray_short" : "GR",
+        "gray_long" : "Gray",
+        "black_short" : "BL",
+        "black_long" : "Black",
+        "white_short" : "WH",
+        "white_long" : "White",
+        "yellow_short" : "YL",
+        "yellow_long" : "Yellow",
+        "mixed_short" : "BR",
+        "mixed_long" : "Brindle",
+        "undefined_short" : "?!",
+        "undefined_long" : "No Color Defined"
+    },
+    "pet-edit-step6" : {
+        "confirmText" : "NEXT",
+        "cancelText" : "BACK",
+        "age" : "Age",
+        "undefined_short" : "?!",
+        "undefined_long" : "I Don't Know",
+        "puppy_short" : "P",
+        "puppy_long" : "Puppy",
+        "adult_short" : "A",
+        "adult_long" : "Adult"
+    },
+    "pet-edit-step7" : {
+        "confirmText" : "NEXT",
+        "cancelText" : "BACK",
+        "specialNeeds" : "Special Needs",
+        "yes_short" : "Y",
+        "yes_long" : "Yes",
+        "no_short" : "N",
+        "no_long" : "No"
+    },
+    "pet-edit-step8" : {
+        "title" : "Pet registered",
+        "subtitle" : "successfully!",
+        "button" : "BACK TO PROFILE"
+    }
+}

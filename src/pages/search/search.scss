@@ -1,0 +1,25 @@
+page-search {
+    .div-border-search {
+        border: 1px solid color($colors, bp-gray-medium);
+        height: auto;
+        border-radius: 25px;
+    }
+
+    .div-search-input {
+        margin-left: 20px;
+        padding-right: 12px !important;
+    }
+
+    .icon-search {
+        font-size: 40px;
+        color: color($colors, bp-red);
+    }
+
+    #btn-search {
+        text-transform: uppercase;
+    }
+
+    .button-default-1 {
+        margin-bottom: 10px;
+    }
+}

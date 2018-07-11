@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar color="bp-red">
+    <div class="brand-bepet" text-center>{{ "BePet" | translate }}</div>
+    <!-- <ion-title class="brand-bepet" text-center>{{ "BePet" | translate }}</ion-title> -->
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <P text-center class="home-title">{{ "search.what_do_you_need_for_your_pet" | translate }}</P>
+  <div class="div-border-search">
+    <ion-row *ngIf="selectedTags.length <= 0">
+      <ion-col col-10>
+        <ion-input class='div-search-input' type="text" placeholder="{{ 'search.type_here' | translate }}" (keyup)="addSelectedTag($event)" [(ngModel)]='search'
+          #searchbox></ion-input>
+      </ion-col>
+      <ion-col col-2>
+        <ion-icon class="icon-search" name="search"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="selectedTags.length > 0">
+      <ion-col col-10 no-padding no-margin>
+        <div style="padding: 10px;">
+          <span *ngFor='let tag of selectedTags; let i = index'>
+            <button ion-button small round [color]='colors[i % 4]' class="button-tag" (click)="removeSelectedTag(tag)">{{tag}}</button>
+          </span>
+        </div>
+      </ion-col>
+      <ion-col col-2>
+          <ion-icon class="icon-search" name="search"></ion-icon>
+        </ion-col>
+    </ion-row>
+  </div>
+  <br>
+  <button id="btn-search" class="button-default-1" (click)="doSearch()">{{ "search.search" | translate }}</button>
+  <br>
+  <div text-center no-padding no-margin>
+    <!-- <ion-scroll scrollY="true" style="height: 255px;"> -->
+    <span *ngFor='let tag of tags; let i = index'>
+      <button ion-button small round [color]='colors[i % 4]' (click)='addTag(tag)' class="button-tag">{{tag}}</button>
+    </span>
+    <!-- </ion-scroll> -->
+  </div>
+</ion-content>

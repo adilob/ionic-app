@@ -1,0 +1,145 @@
+<ion-header>
+  <ion-navbar color="bp-red">
+      <div class="brand-bepet" text-center>{{ "BePet" | translate }}</div>
+    <!-- <ion-title class="brand-bepet" text-center>BePet</ion-title> -->
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="main">
+
+  <div id="div-photo-profile">
+    <profile-photo [photoUrl]="teste" isPet="false"></profile-photo>
+  </div>
+  <div class="rounding-default-2 card-profile">
+    <div class="profile-name section-title upper-text">FULANA DE TAL</div>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4 text-right>
+          <div class="text-default-1">{{ "profile.address" | translate }}</div>
+        </ion-col>
+        <ion-col col-8>
+          <div class="text-default-2">Avenida Protásio Alves, 307</div>
+          <div class="text-default-2">Porto Alegre - RS</div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4 text-right>
+          <div class="text-default-1">{{ "profile.phones" | translate }}</div>
+        </ion-col>
+        <ion-col col-8>
+          <div class="text-default-2">51 3333.3333</div>
+          <div class="text-default-2">51 999.999.999</div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4 text-right>
+          <div class="text-default-1">{{ "profile.email" | translate }}</div>
+        </ion-col>
+        <ion-col col-8>
+          <div class="text-default-2">fulana@gmail.com</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <button class="button-default-1 upper-text" (click)="doSearch()">{{ "profile.profile-edit" | translate }}</button>
+  </div>
+
+  <!-- <div class="rounding-default-2 card-pet">
+    <div class="section-title upper-text">{{ "profile.my-pets" | translate }}</div>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4>
+          <div class="pets">
+            <profile-photo [photoUrl]="teste_pet" isPet="true"></profile-photo>
+          </div>
+        </ion-col>
+        <ion-col col-8>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <div class="semi-title-1">THOR</div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <div class="text-default-1">Cachorro | Macho | 5 anos</div>
+                <div class="text-default-1">sem serviço(s) agendado(s)</div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4>
+          <profile-photo [photoUrl]="teste_pet" isPet="true"></profile-photo>
+        </ion-col>
+        <ion-col col-8>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <div class="semi-title-1">THOR</div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <div class="text-default-1">Cachorro | Macho | 5 anos</div>
+                <div class="text-default-1">sem serviço(s) agendado(s)</div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <button class="button-default-1 upper-text" (click)="addPet()">{{ "profile.add-pet" | translate }}</button>
+  </div> -->
+
+  <div class="rounding-default-2 card-payment">
+    <div class="section-title upper-text">{{ "profile.payment" | translate }}</div>
+    <ion-grid padding>
+      <ion-row>
+        <ion-col col-2>
+          <img src="assets/imgs/cards/1/visa.png" alt="" width="50px">
+        </ion-col>
+        <ion-col col-6>
+          <div class="text-default-2">**** 3333</div>
+        </ion-col>
+        <ion-col col-4>
+          <div text-right class="text-default-1">{{ "profile.remove-card" | translate }}</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <button class="button-default-1 upper-text" (click)="doSearch()">{{ "profile.add-card" | translate }}</button>
+  </div>
+
+  <!-- <div class="rounding-default-2 card-payment">
+    <div class="section-title upper-text">{{ "profile.history" | translate }}</div>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-5>
+          <div class="text-default-2">12 de Agosto (sábado)</div>
+        </ion-col>
+        <ion-col col-7>
+          <div class="text-default-1">| Banho e Tosa | Thor</div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-5>
+          <div class="text-default-2">13 de Setembro (quarta-feira)</div>
+        </ion-col>
+        <ion-col col-7>
+          <div class="text-default-1">| Banho | Mimi</div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-5>
+          <div class="text-default-2">28 de Setembro (terça-feira)</div>
+        </ion-col>
+        <ion-col col-7>
+          <div class="text-default-1">| Banho | Mimi</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <button class="button-default-1 upper-text" (click)="doSearch()">{{ "profile.access-history" | translate }}</button>
+  </div> -->
+
+</ion-content>
